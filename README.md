@@ -4,5 +4,5 @@ To run locally:
 3. ```streamlit run app.py```
 
 
-If you want to train the model, you can use the following command:
-``` python randomForest.py``` ```
+If you want to train the model, you can use the following command:  
+``` python randomForest.py```
