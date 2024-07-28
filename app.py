@@ -27,14 +27,14 @@ if submit_button:
             # Predict the class for the new data
             prediction = classifier.predict(new_data)
 
-        # Determine the result based on the prediction
+        # Determine the result based on the prediction and display it in color
         if prediction[0] == 1:
-            result = "Phishy Url"
+            result = "Phishy URL"
+            st.write(f"**Input URL:** {url_input}")
+            st.write(f"**Prediction:** :red[{result}]")
         else:
-            result = "Legitimate Url"
-
-        # Display the results
-        st.write(f"Input URL: {url_input}")
-        st.write(f"Prediction: {result}")
+            result = "Legitimate URL"
+            st.write(f"**Input URL:** {url_input}")
+            st.write(f"**Prediction:** :green[{result}]")
     else:
         st.write("Please enter a URL.")

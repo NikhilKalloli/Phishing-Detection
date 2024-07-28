@@ -668,9 +668,7 @@ This feature measures the popularity of the website by determining the number of
 If the rank of the domain < 100000, the value of this feature is 1 (phishing) else 0 (legitimate).
 
 '''
-def web_traffic(url):
-    #ongoing
-   
+def web_traffic(url):   
     try:
         # Filling the whitespaces in the URL if any
         url = urllib.parse.quote(url)
