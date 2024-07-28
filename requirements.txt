@@ -1,0 +1,15 @@
+joblib
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tldextract
+regex
+requests
+beautifulsoup4
+urllib3
+whois
+ipaddress
+dnspython
+streamlit
